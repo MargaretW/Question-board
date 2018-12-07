@@ -1,0 +1,51 @@
+body {
+  background-image: url("../css/image/background2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+h1 {
+  font-size: 70px;
+  font-style: italic;
+  font-family: 'Open Sans',sans-serif;
+}
+h2 {
+  color: navy;
+  font-size: 40px;
+}
+.choices{
+  color: white;
+  font-family: 'Open Sans',sans-serif;
+  font-size: 35px:
+  padding: 5px;
+  border: 2px solid navy;
+  background-color: navy;
+}
+p {
+  display: none;
+  font-size: 50px;
+  color: green;
+}
+.start {
+  background-color: green;
+   border: none;
+   color: white;
+   padding:50px;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   font-size: 16px;
+   border-radius: 12px;
+}
+.submit {
+  background-color: green;
+   border: none;
+   color: white;
+   padding:50px;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   font-size: 16px;
+   border-radius: 12px;
+   margin:50px;
+   float: right;
+}
