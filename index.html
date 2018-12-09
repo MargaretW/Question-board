@@ -1,133 +1,133 @@
 <!DOCTYPE html>
 <html>
 
-<head>
+  <head>
 
   <title>
     Javascript Question Board
   </title>
   <link rel="stylesheet" href="css/bootstrap.css">
   <link rel="stylesheet" href="css/styles.css" type="text/css">
-<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
   <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
   <script src="js/script.js"></script>
 </head>
 
-<body>
+  <body>
 
-  <div class="container">
-    <h1 class="jumbotron-primary">Questions on Javascript</h1>
-    <form class="" action="index.html" method="post">
-
+    <div class="container">
+      <h1 class="jumbotron-primary">Questions on Javascript</h1>
       <button class="start" type="button" name="button"> Start</button>
-      <h2>
-        1 . What is Javascript?
-      </h2>
-      <div class="choices">
-        <input type="radio" name="radio" value="14" id="answer1">
-        <label for="">A programming language of HTML and the web</label>
-        <br>
-        <input type="radio" name="radio" value="0">
-        <label for="">A language of HTML and CSS </label>
-        <br>
-        <input type="radio" name="radio" value="0">
-        <label for="">A Microsoft software</label>
-      </div>
-      <h2>
-        2. What does Javascript do?
-      </h2>
-      <div class="choices">
-        <input type="radio" name="radio" value="0" id="">
-        <label for="">Specify the layout of the webpage</label>
-        <br>
-        <input type="radio" name="radi" value="0">
-        <label for="">Define the content of the webpage</label>
-        <br>
-        <input type="radio" name="radio" value="15" id="answer2">
-        <label for="">Program the behaviour of the webpage</label>
-      </div>
-
-      <h2>
-        3. Javascript is only used in webpages
-      </h2>
-      <div class="choices">
-        <input type="radio" name="radip" value="0" >
-        <label for="">True</label>
-        <br>
-        <input type="radio" name="radio" value="10"  id="answer3">
-        <label for="">False</label>
-        <br>
-        <input type="radio" name="radio" value="">
-        <label for="">Not sure</label>
-
-      </div>
+      <form id="Questions" action="index.html" method="post">
         <h2>
-         4.Where should the javascript syntax be inserted?
-      </h2>
-      <div class="choices">
-        <input type="radio" name="radio" value="0" >
-        <label for="">The body area </label>
-        <br>
-        <input type="radio" name="radio" value="0">
-        <label for="">The head section</label>
-        <br>
-        <input type="radio" name="radio" value="10" id="answer4">
-        <label for="">Both </label>
+          1 . What is Javascript?
+        </h2>
+        <div class="choices">
+          <input type="radio" name="define" value="" >
+          <label for="choices">a)A programming language of HTML and the web</label>
+          <br>
+          <input type="radio" name="define" value="">
+          <label for="choices">b)A language of HTML and CSS </label>
+          <br>
+          <input type="radio" name="define" value="">
+          <label for="choices">c)A Microsoft software</label>
+        </div>
+        <h2>
+          2. What does Javascript do?
+        </h2>
+        <div class="choices">
+          <input type="radio" name="work" value="0" >
+          <label for="choices">a)Specify the layout of the webpage</label>
+          <br>
+          <input type="radio" name="work" value="0">
+          <label for="choices">b)Define the content of the webpage</label>
+          <br>
+          <input type="radio" name="work" value="5" >
+          <label for="choices">c)Program the behaviour of the webpage</label>
+        </div>
+
+        <h2>
+          3. Javascript is only used in webpages
+        </h2>
+        <div class="choices">
+          <input type="radio" name="use" value="">
+          <label for="choices">a)True</label>
+          <br>
+          <input type="radio" name="use" value="" >
+          <label for="choices">b)False</label>
+          <br>
+          <input type="radio" name="use" value="">
+          <label for="choices">c)Not sure</label>
+
+        </div>
+        <h2>
+          4.Where should the javascript syntax be inserted?
+        </h2>
+        <div class="choices">
+          <input type="radio" name="syntax" value="">
+          <label for="choices">a)The body area </label>
+          <br>
+          <input type="radio" name="syntax" value="">
+          <label for="choices">b)The head section</label>
+          <br>
+          <input type="radio" name="syntax" value="" >
+          <label for="choices">c)Both </label>
+        </div>
+
+        <h2>
+          5. How do you write an array?
+        </h2>
+        <div class="choices">
+          <input type="radio" name="array" value="0">
+          <label for="choices">a)var cartype= [Benz,Toyota,Isuzu]</label>
+          <br>
+          <input type="radio" name="array" value="" >
+          <label for="choices">b)var carType = ['Benz','Toyota','Isuzu']</label>
+          <br>
+          <input type="radio" name="array" value="">
+          <label for="choices">c)var carType = {'Benz','Toyota','Isuzu'}</label>
+
+        </div>
+
+        <h2>
+          6. Which of the following represents logical operators?
+        </h2>
+        <div class="choices">
+          <input type="radio" name="log" value="" >
+          <label for="choices">a)|| , && , ! </label>
+          <br>
+          <input type="radio" name="log" value="">
+          <label for="choices">b)//, !== , ===</label>
+          <br>
+          <input type="radio" name="log" value="">
+          <label for="choices">c)&&, === , ||</label>
+
+        </div>
+        <h2>
+          7. Which built-in method calls a function for each element in the array?
+        </h2>
+        <div class="choices">
+          <input type="radio" name="fun" value="">
+          <label for="choices">a)loop()</label>
+          <br>
+        <input type="radio" name="fun" value="" >
+          <label for="choices">b)forEach</label>
+          <br>
+          <input type="radio" name="fun" value="">
+          <label for="choices">c) None of the above </label>
+          <br>
+        </div>
+        <button type="submit" id="submit">Submit</button>
+      </form>
+      <br>
+      <div id="total-score">
+        <p>
+          Your score is .....
+        </p>
+        <button class="start" type="button" name="button"> Restart </button>
       </div>
+    </div>
 
-      <h2>
-         5. How do you write an array?
-      </h2>
-      <div class="choices">
-        <input type="radio" name="radio" value="0" >
-        <label for="">var cartype= [Benz,Toyota,Isuzu]</label>
-        <br>
-        <input type="radio" name="radio" value="15" id="answer5">
-        <label for="">var carType = ['Benz','Toyota','Isuzu']</label>
-        <br>
-        <input type="radio" name="radio" value="">
-        <label for="">var carType = {'Benz','Toyota','Isuzu'}</label>
-
-      </div>
-
-      <h2>
-         6. Which of the following represents logical operators?
-      </h2>
-      <div class="choices">
-        <input type="radio" name="radio" value="15" id="answer6">
-        <label for="">|| , && , ! </label>
-        <br>
-        <input type="radio" name="radio" value="0">
-        <label for="">//, !== , ===</label>
-        <br>
-        <input type="radio" name="radio" value="">
-        <label for=""> &&, === , ||</label>
-
-      </div>
-      <h2>
-        7. Which built-in method calls a function for each element in the array?
-      </h2>
-      <div class="choices">
-        <input type="radio" name="radio" value="0">
-        <label for="">loop()</label>
-        <br>
-        <input type="radio" name="radio" value="15" id="answer7">
-        <label for="">forEach</label>
-        <br>
-        <input type="radio" name="radio" value="">
-        <label for=""> None of the above </label>
-        <br>
-      </div>
-
-      <button type="submit" class="submit">Submit</button>
-    </form>
-    <br>
-    <p>
-      Score = <span id=" score"> </span>
-    </p>
-
-  </div>
-
-</body>
+  </body>
 
 </html>
