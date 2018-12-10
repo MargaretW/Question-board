@@ -12,7 +12,7 @@ $(document).ready(function() {
   var totalScore = parseInt(quizOne)+parseInt(quizTwo)+parseInt(quizThree)+parseInt(quizFour)+parseInt(quizFive)+parseInt(quizSix)+parseInt(quizSeven);
     $("#results").text("Your total score is: " + totalScore + " out of 30");
 
-    $("form#Questions").fadeToggle(2500);
+    $("form#Questions").slideUp(2500);
 
   $("#results").show(3000);
 
