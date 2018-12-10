@@ -25,7 +25,7 @@ Software used in the application include;
 ## Usage
 First clone to your local directory to make any modifications.
 ## Support and contact details
-In case of any issues,contact me on [linkedin](https://www.linkedin.com/in/margaret-wangechi/)shown. Will respond almost immediately.
+In case of any issues,contact me on [linkedin](https://www.linkedin.com/in/margaret-wangechi/). This can also be used in case of further contributions towards the application.
 ### License
 Copyright (c) {2018}
 **Wangechi m Wakarima**
