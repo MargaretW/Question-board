@@ -5,7 +5,6 @@
 This is a question board that will provide an interactive face with the user. The aim of this application is to show my understanding of j-query as used in web page.
 
 ## BDD
-* the user will click on the start button to begin
 * the user will select the best option.
 * on submission, the user will get the total score.
 
@@ -15,14 +14,14 @@ This is a question board that will provide an interactive face with the user. Th
 * clone to personal computer in case of contribution to it.
 section
 ## Known Bugs
-no known bags however in case of any, kindly contact me as shown in the contact section.
+no known bugs however in case of any, kindly contact me as shown in the contact section.
 section
 ## Technologies used
 Software used in the application include;
 * IDEs include either: Atom, VS Code, Brackets.
 * Browsers include either: Google Chrome, Mozilla Firefox.
 * JavaScript,HTML and CSS
-* basic j-query 
+* basic j-query
 ## Usage
 First clone to your local directory to make any modifications.
 ## Support and contact details
