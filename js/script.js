@@ -14,7 +14,7 @@ $(document).ready(function() {
 
     $("form#Questions").slideUp(3000);
 
-  $("#results").show(2500);
+  $("#results").show(2800);
 
 if (totalScore <20){
 alert("need more study then retry another day")
