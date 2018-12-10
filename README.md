@@ -5,8 +5,10 @@
 This is a question board that will provide an interactive face with the user. The aim of this application is to show my understanding of j-query as used in web page.
 
 ## BDD
-* the user will select the best option.
-* on submission, the user will get their total score.
+* have question with multiple choices
+* select a single preferred choice.
+* calculate the total score.
+* display total score
 
 ## Setup/Installation Requirements
 * create a [Github account](https://github.com)
@@ -14,7 +16,7 @@ This is a question board that will provide an interactive face with the user. Th
 * clone to personal computer in case of contribution to it.
 section
 ## Known Bugs
-no known bugs however in case of any, kindly contact me as shown in the contact section.
+If there is an unaswered question,the results will return as NaN hence ensure you answer all questions.
 section
 ## Technologies used
 Software used in the application include;
@@ -25,7 +27,7 @@ Software used in the application include;
 ## Usage
 First clone to your local directory to make any modifications.
 ## Support and contact details
-In case of any issues,contact me on [linkedin](https://www.linkedin.com/in/margaret-wangechi/)shown. Will respond almost immediately.
+In case of any issues,contact me on [linkedin](https://www.linkedin.com/in/margaret-wangechi/). This can also be used in case of further contributions towards the application.
 ### License
 Copyright (c) {2018}
 **Wangechi m Wakarima**

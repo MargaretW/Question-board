@@ -23,7 +23,6 @@ else {
 alert ("good but can do better")
 }
 
-
     event.preventDefault();
    });
 
