@@ -12,9 +12,9 @@ $(document).ready(function() {
   var totalScore = parseInt(quizOne)+parseInt(quizTwo)+parseInt(quizThree)+parseInt(quizFour)+parseInt(quizFive)+parseInt(quizSix)+parseInt(quizSeven);
     $("#results").text("Your total score is: " + totalScore + " out of 30");
 
-    $("form#Questions").slideUp(2500);
+    $("form#Questions").slideUp(3000);
 
-  $("#results").show(3000);
+  $("#results").show(2500);
 
 if (totalScore <20){
 alert("need more study then retry another day")
