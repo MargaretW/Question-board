@@ -1,35 +1,30 @@
-var correctAnswer =["a","c","b","c","b","a","b"]
-var userChoices =[]
+$(document).ready(function() {
+
+  $("form#Questions").submit(function(event){
+  var quizOne = $("input:radio[name=choice1]:checked").val();
+  var quizTwo = $("input:radio[name=choice2]:checked").val();
+  var quizThree = $("input:radio[name=choice3]:checked").val();
+  var quizFour = $("input:radio[name=choice4]:checked").val();
+  var quizFive = $("input:radio[name=choice5]:checked").val();
+  var quizSix = $("input:radio[name=choice6]:checked").val();
+  var quizSeven = $("input:radio[name=choice7]:checked").val();
+
+  var totalScore = parseInt(quizOne)+parseInt(quizTwo)+parseInt(quizThree)+parseInt(quizFour)+parseInt(quizFive)+parseInt(quizSix)+parseInt(quizSeven);
+    $("#results").text("Your total score is: " + totalScore + " out of 30");
+
+    $("form#Questions").fadeToggle(2500);
+
+  $("#results").show(3000);
+
+if (totalScore <20){
+alert("need more study then retry another day")
+}
+else {
+alert ("good but can do better")
+}
 
 
+    event.preventDefault();
+   });
 
-
-
-
-
-
-
-
-
-
-
-
-$(document).ready (function(){
-  $("h1").mouseover (function(){
-    alert("click start to begining the quiz")
-  });
-  $(".start").click (function(){
-    $("#Questions").slideDown("3000")
-    $(".start").hide()
-  });
-     $("#Questions").submit(function(event){
-       if (isNaN(userChoices)){
-         alert("please answer all question")
-       }else $("this").submit();
-
-
-       $("#total-score").show ()
-
-     });
-
- });
+});
