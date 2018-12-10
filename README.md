@@ -6,7 +6,7 @@ This is a question board that will provide an interactive face with the user. Th
 
 ## BDD
 * the user will select the best option.
-* on submission, the user will get the total score.
+* on submission, the user will get their total score.
 
 ## Setup/Installation Requirements
 * create a [Github account](https://github.com)
