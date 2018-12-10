@@ -26,7 +26,6 @@ h2 {
 
 #submit {
   background-color: green;
-  border: none;
   color: white;
   padding: 50px;
   text-align: center;
@@ -49,7 +48,7 @@ h2 {
   margin: 50px;
 }
 .btn{
-  background-color: black;
+  background-color: red;
   color: white;
   font-size: 30px;
   text-align: center;

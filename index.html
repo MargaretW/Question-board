@@ -3,26 +3,26 @@
 
   <head>
 
-  <title>
-    Javascript Question Board
-  </title>
-  <link rel="stylesheet" href="css/bootstrap.css">
-  <link rel="stylesheet" href="css/styles.css" type="text/css">
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
-  <script src="https://code.jquery.com/jquery-3.3.1.js" ></script>
-  <script src="js/script.js"></script>
-</head>
+    <title>
+      Javascript Question Board
+    </title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/styles.css" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <script src="js/script.js"></script>
+  </head>
 
   <body>
 
     <div class="container">
       <h1 class="jumbotron-primary">Questions on Javascript</h1>
-      <form id="Questions"  method="post">
+      <form id="Questions" method="post">
         <h2 id="Q1">
           1 . What is Javascript?
         </h2>
         <div class="choices">
-          <input type="radio" name="choice1" value="5" >A programming language of HTML and the web
+          <input type="radio" name="choice1" value="5">A programming language of HTML and the web
 
           <br>
           <input type="radio" name="choice1" value="0">A language of HTML and CSS
@@ -33,11 +33,11 @@
           2. What does Javascript do?
         </h2>
         <div class="choices">
-          <input type="radio" name="choice2" value="0" >Specify the layout of the webpage
+          <input type="radio" name="choice2" value="0">Specify the layout of the webpage
           <br>
           <input type="radio" name="choice2" value="0">Define the content of the webpage
           <br>
-          <input type="radio" name="choice2" value="5" >Program the behaviour of the webpage
+          <input type="radio" name="choice2" value="5">Program the behaviour of the webpage
         </div>
 
         <h2 id="Q3">
@@ -46,7 +46,7 @@
         <div class="choices">
           <input type="radio" name="choice3" value="0">True
           <br>
-          <input type="radio" name="choice3" value="2" >False
+          <input type="radio" name="choice3" value="2">False
           <br>
           <input type="radio" name="choice3" value="0">Not sure
 
@@ -59,7 +59,7 @@
           <br>
           <input type="radio" name="choice4" value="0">The head section
           <br>
-          <input type="radio" name="choice4" value="3" >Both
+          <input type="radio" name="choice4" value="3">Both
         </div>
 
         <h2 id="Q5">
@@ -68,40 +68,40 @@
         <div class="choices">
           <input type="radio" name="choice5" value="0">var cartype= [Benz,Toyota,Isuzu]
           <br>
-          <input type="radio" name="choice5" value="5" >var carType = ['Benz','Toyota','Isuzu']
+          <input type="radio" name="choice5" value="5">var carType = ['Benz','Toyota','Isuzu']
           <br>
           <input type="radio" name="choice5" value="0">var carType = {'Benz','Toyota','Isuzu'}
 
         </div>
 
-        <h2 id="Q6">
-          6. Which of the following represents logical operators?
-        </h2>
-        <div class="choices">
-          <input type="radio" name="choice6" value="5" >|| , && , !
-          <br>
-          <input type="radio" name="choice6" value="0">//, !== , ===
-          <br>
-          <input type="radio" name="choice6" value="0">=== , ||,&&
-        </div>
-        <h2 id="Q7">
-          7. Which built-in method calls a function for each element in the array?
-        </h2>
-        <div class="choices">
-          <input type="radio" name="choice7" value="0">loop()
-          <br>
-        <input type="radio" name="choice7" value="5" >forEach
-          <br>
-          <input type="radio" name="choice7" value="0">None of the above
-          <br>
-        </div>
-        <button type="submit" id="submit">Submit</button>
-      </form>
-      <p id="results"></p>
-      <button type="button" class="btn"><a href="index.html">Restart</a></button>
-      <br>
-   </div>
+          <h2 id="Q6">
+            6. Which of the following represents logical operators?
+          </h2>
+          <div class="choice">
+            <input type="radio" name="choice6" value="5">|| , && , !
+            <br>
+            <input type="radio" name="choice6" value="0">//, !== , ===
+            <br>
+            <input type="radio" name="choice6" value="0">=== , ||,&&
+          </div>
+          <h2 id="Q7">
+            7. Which built-in method calls a function for each element in the array?
+          </h2>
+          <div class="choices">
+            <input type="radio" name="choice7" value="0">loop()
+            <br>
+            <input type="radio" name="choice7" value="5">forEach
+            <br>
+            <input type="radio" name="choice7" value="0">None of the above
+            <br>
+          </div>
+          <button type="submit" id="submit">Submit</button>
+        </form>
+        <p id="results"></p>
+        <button type="button" class="btn"><a href="index.html">Retry</a></button>
+        <br>
+      </div>
 
-  </body>
+    </body>
 
 </html>

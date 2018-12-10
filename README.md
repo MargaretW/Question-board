@@ -5,7 +5,7 @@
 This is a question board that will provide an interactive face with the user. The aim of this application is to show my understanding of j-query as used in web page.
 
 ## BDD
-* have question with multiple choices
+* have question with multiple choices.
 * select a single preferred choice.
 * calculate the total score.
 * display total score
